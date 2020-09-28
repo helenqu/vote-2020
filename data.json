@@ -1,0 +1,585 @@
+{
+	"AK": {
+		"reg_deadline": "2020-10-04",
+		"ballot_req_deadline": "2020-10-24",
+		"ballot_submit_deadline": {
+			"postmarked": "2020-11-03",
+			"received": "2020-11-13"
+		},
+		"reg_link": "https://voterregistration.alaska.gov/",
+		"ballot_link": "https://absenteeballotapplication.alaska.gov/",
+		"can_vote_by_mail": "true"
+	},
+	"AL": {
+		"reg_deadline": "2020-10-19", 
+		"ballot_req_deadline": "2020-10-29",
+		"ballot_submit_deadline": {
+			"postmarked": "2020-11-02",
+			"received": "2020-11-03"
+		},
+		"reg_link": "https://www.alabamainteractive.org/sos/voter_registration/voterRegistrationWelcome.action",
+		"ballot_link":"https://www.sos.alabama.gov/alabama-votes/absentee-ballot-applications",
+		"can_vote_by_mail": "by using the physical illness or infirmity excuse"
+	},
+	"AR":{
+		"reg_deadline": "2020-10-05",
+		"ballot_req_deadline": "2020-10-27",
+		"ballot_submit_deadline": {
+			"received": "2020-11-03"
+		},
+		"reg_link": "https://www.sos.arkansas.gov/uploads/elections/ArkansasVoterRegistrationApplication.pdf",
+		"ballot_link": "https://www.sos.arkansas.gov/uploads/elections/Absentee_Ballot_Application_1.pdf",
+		"can_vote_by_mail": "by using fear of catching COVID-19 as an excuse"
+	},
+
+	"AZ":{
+		"reg_deadline": "2020-10-05",
+		"ballot_req_deadline": "2020-10-23",
+		"ballot_submit_deadline": {
+			"received": "2020-11-03"
+		},
+		"reg_link": "https://servicearizona.com/VoterRegistration/selectLanguage",
+		"ballot_link": "https://my.arizona.vote/Early/ApplicationLogin.aspx",
+		"can_vote_by_mail": "true"
+	},
+
+	"CA":{
+		"reg_deadline": "2020-10-19",
+		"ballot_req_deadline": "auto",
+		"ballot_submit_deadline": {
+			"postmarked": "2020-11-03",
+			"received": "2020-11-20"
+		},
+		"reg_link": "https://registertovote.ca.gov/",
+		"ballot_link": "none",
+		"can_vote_by_mail": "true"
+	},
+
+	"CO":{
+		"reg_deadline": "2020-10-26", 
+		"ballot_req_deadline": "auto",
+		"ballot_submit_deadline": {
+			"received": "2020-11-03"
+		},
+		"reg_link": "https://www.sos.state.co.us/voter/pages/pub/olvr/verifyNewVoter.xhtml",
+		"ballot_link": "none",
+		"can_vote_by_mail": "true"
+	},
+
+	"CT":{
+		"reg_deadline": "2020-10-27",
+		"ballot_req_deadline": "2020-11-02",
+		"ballot_submit_deadline": {
+			"received": "2020-11-03"
+		},
+		"reg_link": "https://voterregistration.ct.gov/OLVR/welcome.do",
+		"ballot_link": "https://portal.ct.gov/-/media/SOTS/ElectionServices/Absentee-Ballot-Application-ED-3/ED-3-Rev-20-Final.pdf",
+		"can_vote_by_mail": "by using the COVID-19 excuse"
+	},
+
+	"DE":{
+		"reg_deadline": "2020-10-10",
+		"ballot_req_deadline": "2020-11-02",
+		"ballot_submit_deadline": {
+			"received": "2020-11-03"
+		},
+		"reg_link": "https://ivote.de.gov/VoterView",
+		"ballot_link": "https://ivote.de.gov/VoterView",
+		"can_vote_by_mail": "true"
+	},
+
+	"DC": {
+		"reg_deadline": "2020-10-13",
+		"ballot_req_deadline": "auto",
+		"ballot_submit_deadline": {
+			"postmarked": "2020-11-03",
+			"received": "2020-11-10"
+		},
+		"reg_link": "https://www.dcboe.org/dcboe/media/PDFFiles/Voter-Registration-Form-FINAL_2.pdf",
+		"ballot_link": "none",
+		"can_vote_by_mail": "true"
+	},
+
+	"FL":{
+		"reg_deadline": "2020-10-05", 
+		"ballot_req_deadline": "2020-10-24",
+		"ballot_submit_deadline": {
+			"received": "2020-11-03"
+		},
+		"reg_link": "https://registertovoteflorida.gov/home",
+		"ballot_link": "https://dos.myflorida.com/elections/for-voters/voting/vote-by-mail/",
+		"can_vote_by_mail": "true"
+	},
+
+	"GA":{
+		"reg_deadline": "2020-10-05",
+		"ballot_req_deadline": "2020-10-30",
+		"ballot_submit_deadline": {
+			"postmarked": "2020-11-03",
+			"received": "2020-11-06"
+		},
+		"reg_link": "https://registertovote.sos.ga.gov/GAOLVR/welcome.do#no-back-button",
+		"ballot_link": "https://ballotrequest.sos.ga.gov/",
+		"can_vote_by_mail": "true"
+	},
+
+	"HI":{
+		"reg_deadline": "2020-10-05",
+		"ballot_req_deadline": "auto",
+		"ballot_submit_deadline": {
+			"received": "2020-11-03"
+		},
+		"reg_link": "https://olvr.hawaii.gov/",
+		"ballot_link": "none",
+		"can_vote_by_mail": "true"
+	},
+
+	"IA":{
+		"reg_deadline": "2020-10-24",
+		"ballot_req_deadline": "2020-10-24",
+		"ballot_submit_deadline": {
+			"postmarked": "2020-11-02",
+			"received": "2020-11-09"
+		},
+		"reg_link": "https://mymvd.iowadot.gov/Account/Login?ReturnUrl=%2fVoterRegistration",
+		"ballot_link": "https://sos.iowa.gov/elections/pdf/absenteeballotapp.pdf",
+		"can_vote_by_mail": "true"
+	},
+
+	"ID":{
+		"reg_deadline": "2020-10-09",
+		"ballot_req_deadline": "2020-10-23",
+		"ballot_submit_deadline": {
+			"received": "2020-11-03"
+		},
+		"reg_link": "https://elections.sos.idaho.gov/ElectionLink/ElectionLink/ApplicationInstructions.aspx",
+		"ballot_link": "https://elections.sos.idaho.gov/ElectionLink/ElectionLink/BeginAbsenteeRequest.aspx",
+		"can_vote_by_mail": "true"
+	},
+
+	"IL":{
+		"reg_deadline": "2020-10-06", 
+		"ballot_req_deadline": "2020-10-29",
+		"ballot_submit_deadline": {
+			"postmarked": "2020-11-03",
+			"received": "2020-11-17"
+		},
+		"reg_link": "https://ova.elections.il.gov/",
+		"ballot_link": "https://elections.il.gov/ElectionOperations/VotingByMailAgreement.aspx",
+		"can_vote_by_mail": "true"
+	},
+
+	"IN":{
+		"reg_deadline": "2020-10-05", 
+		"ballot_req_deadline": "2020-10-22",
+		"ballot_submit_deadline": {
+			"received": "2020-11-03"
+		},
+		"reg_link": "https://indianavoters.in.gov/",
+		"ballot_link": "https://indianavoters.in.gov/MVPHome/PrintDocuments",
+		"can_vote_by_mail": "false"
+	},
+
+	"KS":{
+		"reg_deadline": "2020-10-13",
+		"ballot_req_deadline": "2020-10-27",
+		"ballot_submit_deadline": {
+			"postmarked": "2020-11-03",
+			"received": "2020-11-06"
+		},
+		"reg_link": "https://www.kdor.ks.gov/apps/voterreg/default.aspx",
+		"ballot_link": "https://www.kssos.org/forms/elections/AV1.pdf",
+		"can_vote_by_mail": "true"
+	},
+
+	"KY":{
+		"reg_deadline": "2020-10-05",
+		"ballot_req_deadline": "2020-10-09",
+		"ballot_submit_deadline": {
+			"postmarked": "2020-11-03",
+			"received": "2020-11-06"
+		},
+		"reg_link": "https://vrsws.sos.ky.gov/ovrweb/",
+		"ballot_link": "https://vrsws.sos.ky.gov/abrweb/",
+		"can_vote_by_mail": "true"
+	},
+
+	"LA":{
+		"reg_deadline": "2020-10-13",
+		"ballot_req_deadline": "2020-10-30",
+		"ballot_submit_deadline": {
+			"received": "2020-11-02"
+		},
+		"reg_link": "https://www.sos.la.gov/ElectionsAndVoting/Pages/OnlineVoterRegistration.aspx",
+		"ballot_link": "https://www.sos.la.gov/ElectionsAndVoting/Vote/VoteByMail/Pages/default.aspx",
+		"can_vote_by_mail": "by citing a usual excuse or using excuses of: having a medical condition that puts you at higher risk of COVID-19, being under a quarantine order, experiencing the symptoms of COVID-19, or caring for someone in quarantine"
+	},
+
+	"MA":{
+		"reg_deadline": "2020-10-24",
+		"ballot_req_deadline": "2020-10-28",
+		"ballot_submit_deadline": {
+			"postmarked": "2020-11-03",
+			"received": "2020-11-06"
+		},
+		"reg_link": "https://www.sec.state.ma.us/ovr/",
+		"ballot_link": "https://www.sec.state.ma.us/ele/elepdf/2020-Vote-by-Mail-Application.pdf",
+		"can_vote_by_mail": "true"
+	},
+
+	"MD":{
+		"reg_deadline": "2020-10-13",
+		"ballot_req_deadline": "2020-10-20",
+		"ballot_submit_deadline": {
+			"postmarked": "2020-11-03",
+			"received": "2020-11-13"
+		},
+		"reg_link": "https://voterservices.elections.maryland.gov/OnlineVoterRegistration/InstructionsStep1",
+		"ballot_link": "https://voterservices.elections.maryland.gov/OnlineVoterRegistration/InstructionsStep1",
+		"can_vote_by_mail": "true"
+	},
+
+	"ME":{
+		"reg_deadline": "2020-10-19",
+		"ballot_req_deadline": "2020-10-29",
+		"ballot_submit_deadline": {
+			"received": "2020-11-03"
+		},
+		"reg_link": "https://www.maine.gov/sos/cec/elec/upcoming/pdf/voterregcard20.pdf",
+		"ballot_link": "https://www.maine.gov/cgi-bin/online/AbsenteeBallot/index.pl",
+		"can_vote_by_mail": "true"
+	},
+
+	"MI":{
+		"reg_deadline": "2020-10-19",
+		"ballot_req_deadline": "2020-10-30",
+		"ballot_submit_deadline": {
+			"postmarked": "2020-11-02",
+			"received": "2020-11-17"
+		},
+		"reg_link": "https://mvic.sos.state.mi.us/RegisterVoter",
+		"ballot_link": "https://mvic.sos.state.mi.us/avapplication",
+		"can_vote_by_mail": "true"
+	},
+
+	"MN":{
+		"reg_deadline": "2020-10-13",
+		"ballot_req_deadline": "2020-11-02",
+		"ballot_submit_deadline": {
+			"postmarked": "2020-11-03",
+			"received": "2020-11-10"
+		},
+		"reg_link": "https://mnvotes.sos.state.mn.us/VoterRegistration/VoterRegistrationMain.aspx",
+		"ballot_link": "https://mnvotes.sos.state.mn.us/ABRegistration/ABRegistrationStep1.aspx",
+		"can_vote_by_mail": "true"
+	},
+
+	"MO":{
+		"reg_deadline": "2020-10-07", 
+		"ballot_req_deadline": "2020-10-21",
+		"ballot_submit_deadline": {
+			"received": "2020-11-03"
+		},
+		"reg_link": "https://s1.sos.mo.gov/elections/voterregistration/",
+		"ballot_link": "https://www.sos.mo.gov/CMSImages/ElectionGoVoteMissouri//2020AbsenteeBallotrequestformfillable.pdf",
+		"can_vote_by_mail": "true"
+	},
+
+	"MS":{
+		"reg_deadline": "2020-10-05",
+		"ballot_req_deadline": "2020-10-25",
+		"ballot_submit_deadline": {
+			"postmarked": "2020-11-03",
+			"received": "2020-11-10"
+		},
+		"reg_link": "https://www.ms.gov/sos/voter_registration/documents/voter_registration_application.pdf",
+		"ballot_link": "https://www.sos.ms.gov/Elections-Voting/Pages/County-Election-Info.aspx",
+		"can_vote_by_mail": "by citing a usual excuse or by using excuses of: having a medical condition that puts you at higher risk of COVID-19, being under “physician-imposed quarantine”, or caring for someone in quarantine"
+	},
+
+	"MT":{
+		"reg_deadline": "2020-10-24",
+		"ballot_req_deadline": "2020-11-02",
+		"ballot_submit_deadline": {
+			"received": "2020-11-03"
+		},
+		"reg_link": "https://sosmt.gov/Portals/142/Elections/Forms/Voter_Registration_Application.pdf",
+		"ballot_link": "https://sosmt.gov/Portals/142/Elections/Forms/Application-for-Absentee-Ballot.pdf",
+		"can_vote_by_mail": "true"
+	},
+
+	"NC":{
+		"reg_deadline": "2020-10-09",
+		"ballot_req_deadline": "2020-10-27",
+		"ballot_submit_deadline": {
+			"postmarked": "2020-11-03",
+			"received": "2020-11-06"
+		},
+		"reg_link": "https://www.ncdot.gov/dmv/offices-services/online/Pages/voter-registration-application.aspx",
+		"ballot_link": "https://votebymail.ncsbe.gov/app/home",
+		"can_vote_by_mail": "true"
+	},
+
+	"ND":{
+		"reg_deadline": "none",
+		"ballot_req_deadline": "auto",
+		"ballot_submit_deadline": {
+			"postmarked": "2020-11-02",
+			"received": "2020-11-09"
+		},
+		"reg_link": "none",
+		"ballot_link": "https://vip.sos.nd.gov/absentee",
+		"can_vote_by_mail": "true"
+	},
+
+	"NE":{
+		"reg_deadline": "2020-10-16",
+		"ballot_req_deadline": "2020-10-23",
+		"ballot_submit_deadline": {
+			"received": "2020-11-03"
+		},
+		"reg_link": "https://www.nebraska.gov/apps-sos-voter-registration/",
+		"ballot_link": "https://sos.nebraska.gov/sites/sos.nebraska.gov/files/doc/elections/earlyvote_app_fill.pdf",
+		"can_vote_by_mail": "true"
+	},
+
+	"NH":{
+		"reg_deadline": "2020-10-21",
+		"ballot_req_deadline": "2020-10-02",
+		"ballot_submit_deadline": {
+			"received": "2020-11-03"
+		},
+		"reg_link": "https://app.sos.nh.gov/Public/ClerkDetails.aspx",
+		"ballot_link": "https://sos.nh.gov/elections/voters/absentee-ballots/request-an-absentee-ballot/",
+		"can_vote_by_mail": "by using fear of catching COVID-19 as an excuse"
+	},
+
+	"NJ":{
+		"reg_deadline": "2020-10-13",
+		"ballot_req_deadline": "auto",
+		"ballot_submit_deadline": {
+			"postmarked": "2020-11-03",
+			"received": "2020-11-10"
+		},
+		"reg_link": "https://voter.svrs.nj.gov/register",
+		"ballot_link": "none",
+		"can_vote_by_mail": "true"
+	},
+
+	"NM":{
+		"reg_deadline": "2020-10-06",
+		"ballot_req_deadline": "2020-10-20",
+		"ballot_submit_deadline": {
+			"received": "2020-11-03"
+		},
+		"reg_link": "https://portal.sos.state.nm.us/OVR/WebPages/InstructionsStep1.aspx?AspxAutoDetectCookieSupport=1",
+		"ballot_link": "https://portal.sos.state.nm.us/OVR/WebPages/AbsenteeApplication.aspx",
+		"can_vote_by_mail": "true"
+	},
+
+	"NV":{
+		"reg_deadline": "2020-10-29",
+		"ballot_req_deadline": "auto",
+		"ballot_submit_deadline": {
+			"postmarked": "2020-11-03",
+			"received": "2020-11-10"
+		},
+		"reg_link": "https://www.nvsos.gov/sosvoterservices/Registration/Step0.aspx",
+		"ballot_link": "none",
+		"can_vote_by_mail": "true"
+	},
+
+	"NY":{
+		"reg_deadline": "2020-10-09",
+		"ballot_req_deadline": "2020-10-27",
+		"ballot_submit_deadline": {
+			"postmarked": "2020-11-03",
+			"received": "2020-11-10"
+		},
+		"reg_link": "https://dmv.ny.gov/more-info/electronic-voter-registration-application",
+		"ballot_link": "https://absenteeballot.elections.ny.gov/",
+		"can_vote_by_mail": "by using fear of contracting COVID-19 as an excuse"
+	},
+
+	"OH":{
+		"reg_deadline": "2020-10-05",
+		"ballot_req_deadline": "2020-10-31",
+		"ballot_submit_deadline": {
+			"postmarked": "2020-11-02",
+			"received": "2020-11-13"
+		},
+		"reg_link": "https://olvr.ohiosos.gov/",
+		"ballot_link": "https://www.ohiosos.gov/globalassets/elections/forms/11-a_english.pdf",
+		"can_vote_by_mail": "true"
+	},
+
+	"OK":{
+		"reg_deadline": "2020-10-09",
+		"ballot_req_deadline": "2020-10-27",
+		"ballot_submit_deadline": {
+			"received": "2020-11-03"
+		},
+		"reg_link": "https://www.ok.gov/elections/documents/Voter_Registration_Application.pdf",
+		"ballot_link": "https://www.ok.gov/elections/OVP.html",
+		"can_vote_by_mail": "true"
+	},
+
+	"OR":{
+		"reg_deadline": "2020-10-13",
+		"ballot_req_deadline": "auto",
+		"ballot_submit_deadline": {
+			"received": "2020-11-03"
+		},
+		"reg_link": "https://secure.sos.state.or.us/orestar/vr/register.do",
+		"ballot_link": "none",
+		"can_vote_by_mail": "true"
+	},
+
+	"PA":{
+		"reg_deadline": "2020-10-19",
+		"ballot_req_deadline": "2020-10-27",
+		"ballot_submit_deadline": {
+			"postmarked": "2020-11-03",
+			"received": "2020-11-06"
+		},
+		"reg_link": "https://www.pavoterservices.pa.gov/pages/VoterRegistrationApplication.aspx",
+		"ballot_link": "https://www.pavoterservices.pa.gov/OnlineAbsenteeApplication/#/OnlineAbsenteeBegin",
+		"can_vote_by_mail": "true"
+	},
+
+	"RI":{
+		"reg_deadline": "2020-10-04", 
+		"ballot_req_deadline": "2020-10-13",
+		"ballot_submit_deadline": {
+			"received": "2020-11-03"
+		},
+		"reg_link": "https://vote.sos.ri.gov/Home/RegistertoVote?ActiveFlag=1",
+		"ballot_link": "https://elections.ri.gov/publications/Election_Publications/Election_Info/General%20Mail%20Ballot%20Application%2011-3-2020.pdf",
+		"can_vote_by_mail": "true"
+	},
+
+	"SC":{
+		"reg_deadline": "2020-10-04",
+		"ballot_req_deadline": "2020-10-30",
+		"ballot_submit_deadline": {
+			"received": "2020-11-03"
+		},
+		"reg_link": "https://info.scvotes.sc.gov/eng/ovr/start.aspx",
+		"ballot_link": "https://info.scvotes.sc.gov/eng/voterinquiry/VoterInformationRequest.aspx?PageMode=AbsenteeRequest",
+		"can_vote_by_mail": "false"
+	},
+
+	"SD":{
+		"reg_deadline": "2020-10-19",
+		"ballot_req_deadline": "2020-11-02",
+		"ballot_submit_deadline": {
+			"received": "2020-11-03"
+		},
+		"reg_link": "https://sdsos.gov/elections-voting/assets/VoterRegistrationFormFillable.pdf",
+		"ballot_link": "https://sdsos.gov/elections-voting/assets/AbsenteeBallotApplicationFillable.pdf",
+		"can_vote_by_mail": "true"
+	},
+
+	"TN":{
+		"reg_deadline": "2020-10-05",
+		"ballot_req_deadline": "2020-10-27",
+		"ballot_submit_deadline": {
+			"received": "2020-11-03"
+		},
+		"reg_link": "https://ovr.govote.tn.gov/",
+		"ballot_link": "https://sos-tn-gov-files.tnsosfiles.com/Absentee%20Ballot%20Request%20Form.pdf",
+		"can_vote_by_mail": "by citing a usual excuse or using excuses of: having a medical condition that puts you at higher risk of COVID-19 or being their caretaker"
+	},
+
+	"TX":{
+		"reg_deadline": "2020-10-05",
+		"ballot_req_deadline": "2020-10-23",
+		"ballot_submit_deadline": {
+			"postmarked": "2020-11-03",
+			"received": "2020-11-04"
+		},
+		"reg_link": "https://webservices.sos.state.tx.us/vrapp/index.asp",
+		"ballot_link": "https://webservices.sos.state.tx.us/forms/5-15f.pdf",
+		"can_vote_by_mail": "false"
+	},
+
+	"UT":{
+		"reg_deadline": "2020-10-23",
+		"ballot_req_deadline": "auto",
+		"ballot_submit_deadline": {
+			"postmarked": "2020-11-02",
+			"received": "on the day of the county canvass (varies by county, up to 11/17)"
+		},
+		"reg_link": "https://secure.utah.gov/voterreg/index.html",
+		"ballot_link": "none",
+		"can_vote_by_mail": "true"
+	},
+
+	"VA":{
+		"reg_deadline": "2020-10-13",
+		"ballot_req_deadline": "2020-10-23",
+		"ballot_submit_deadline": {
+			"postmarked": "2020-11-03",
+			"received": "2020-11-06"
+		},
+		"reg_link": "https://vote.elections.virginia.gov/Registration/DmvPage1Lookup",
+		"ballot_link": "https://vote.elections.virginia.gov/VoterInformation/Lookup/absentee",
+		"can_vote_by_mail": "true"
+	},
+
+	"VT":{
+		"reg_deadline": "2020-11-03",
+		"ballot_req_deadline": "auto",
+		"ballot_submit_deadline": {
+			"received": "2020-11-03"
+		},
+		"reg_link": "https://olvr.vermont.gov/",
+		"ballot_link": "none",
+		"can_vote_by_mail": "true"
+	},
+
+	"WA":{
+		"reg_deadline": "2020-10-26",
+		"ballot_req_deadline": "auto",
+		"ballot_submit_deadline": {
+			"postmarked": "2020-11-03",
+			"received": "2020-11-23"
+		},
+		"reg_link": "https://voter.votewa.gov/WhereToVote.aspx",
+		"ballot_link": "none",
+		"can_vote_by_mail": "true"
+	},
+
+	"WI":{
+		"reg_deadline": "2020-10-14",
+		"ballot_req_deadline": "2020-10-29",
+		"ballot_submit_deadline": {
+			"received": "2020-11-03"
+		},
+		"reg_link": "https://myvote.wi.gov/en-us/RegisterOnline",
+		"ballot_link": "https://myvote.wi.gov/en-us/VoteAbsentee",
+		"can_vote_by_mail": "true"
+	},
+
+	"WV":{
+		"reg_deadline": "2020-10-19",
+		"ballot_req_deadline": "2020-11-02",
+		"ballot_submit_deadline": {
+			"received": "2020-11-03"
+		},
+		"reg_link": "https://sos.wyo.gov/Forms/Elections/General/VoterRegistrationForm.pdf",
+		"ballot_link": "https://sos.wyo.gov/Forms/Elections/General/AbsenteeRequestForm-Standard.pdf",
+		"can_vote_by_mail": "true"
+	},
+
+	"WY":{
+		"reg_deadline": "2020-10-19",
+		"ballot_req_deadline": "2020-11-02",
+		"ballot_submit_deadline": {
+			"received": "2020-11-03"
+		},
+		"reg_link": "https://sos.wyo.gov/Forms/Elections/General/VoterRegistrationForm.pdf",
+		"ballot_link": "https://sos.wyo.gov/Forms/Elections/General/AbsenteeRequestForm-Standard.pdf",
+		"can_vote_by_mail": "true"
+	}
+}
