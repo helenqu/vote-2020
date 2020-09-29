@@ -58,10 +58,11 @@ body {
   position: absolute;
   background-color: white;
   letter-spacing: 1px;
-  top: 100%;
+  top: 150%;
   left: 0;
   right: 0;
   z-index: 99;
+  margin-bottom: 50px;
 }
 
 .select-items option {
@@ -91,7 +92,7 @@ body {
 }
 
 .noload{
-  margin-top: 20px;
+  margin-top: 40px;
   margin-left: 20px;
   width: 500px;    
   height: 2px;
@@ -100,7 +101,7 @@ body {
 }
 
 .text {
-  margin-top: 40px;
+  margin-top: 60px;
 }
 
 .progress-line {
@@ -133,12 +134,34 @@ body {
   }
 }
 
-@media(max-width: 700px) {
+@media(max-width: 1000px) {
   #voting-info {
     width: 100%;
   }
 
-  .custom-select .title {
+  .custom-select, .title {
     font-size: 28px;
+  }
+
+  .select-items {
+    font-size: 28px;
+  }
+
+  .noload {
+    width: 80%;
+    height: 5px;
+  }
+
+  .load {
+    height: 18px;
+    top: -100%;
+  }
+
+  .progress-line {
+    width: 5px;
+  }
+
+  .icon {
+    font-size: 40px;
   }
 }
