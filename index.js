@@ -10,7 +10,10 @@ function stateChanged() {
   const selectedState = selectObj.value;
   if (selectedState == "none") {
     return;
+  } else if (selectedState == "ND") { // ND doesn't have voter registration
+    document.getElementById("reg").setAttribute("style", "display:none")
   }
+
   const stateInfo = window.statesData[selectedState];
 
   if (stateInfo["can_vote_by_mail"] == "true") {
@@ -147,7 +150,7 @@ function setUpProgressBarAndDates(datesMap) {
     document.getElementById("ballot-postmark").setAttribute("style", "display:none")
   }
 
-  if (typeof(datesMap.get('ballotReceived')['deadline']) != "string") { //specific case for UT
+  if (typeof(datesMap.get('ballotReceived')['deadline']) != "string") { // special case for UT
     document.getElementById("ballot-received-line").setAttribute("style", "left: " + datesMap.get('ballotReceived')['position'] + "%")
     document.getElementById("ballot-received-icon").setAttribute("style", "margin-left: calc(" + datesMap.get('ballotReceived')['iconPosition'] + "% - 10px)")
     document.getElementById("days-to-submit").innerText = datesMap.get('ballotReceived')['days'] 
@@ -161,8 +164,15 @@ function setUpProgressBarAndDates(datesMap) {
   }
 
   document.getElementById("loaddiv").setAttribute("style", "width: " + datesMap.get('progressBar')['position'] + "%")
-  document.getElementById("reg-line").setAttribute("style", "left: " + datesMap.get('reg')['position'] + "%")
-  document.getElementById("reg-icon").setAttribute("style", "margin-left: calc(" + datesMap.get('reg')['iconPosition'] + "% - 10px")
+  
+  if (isNaN(datesMap.get('reg')['position'])) { // special case for ND
+    document.getElementById("reg-line").setAttribute("style", "display:none")
+    document.getElementById("reg-icon").setAttribute("style", "display:none")
+  } else {
+    document.getElementById("reg-line").setAttribute("style", "left: " + datesMap.get('reg')['position'] + "%")
+    document.getElementById("reg-icon").setAttribute("style", "margin-left: calc(" + datesMap.get('reg')['iconPosition'] + "% - 10px")
+  }
+
   document.getElementById("election-day-line").setAttribute("style", "left: " + datesMap.get('election')['position'] + "%")
   document.getElementById("election-day-icon").setAttribute("style", "margin-left: calc(" + datesMap.get('election')['iconPosition'] + "% - 10px)")
  
