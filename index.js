@@ -50,9 +50,7 @@ function loadJSON(callback) {
 
 function makeDate(dateString) {
   var splitString = dateString.split("-").map(function(el) { return parseInt(el); });
-  console.log(splitString)
   splitString[1] = splitString[1] - 1;
-  console.log(splitString)
   return new Date(...splitString)
 }
 
@@ -68,7 +66,7 @@ function constructDatesMap(stateInfo) {
   const ballotReceivedDeadline = makeDate(ballotSubmitDeadlines["received"]) == "Invalid Date" ? ballotSubmitDeadlines["received"] : makeDate(ballotSubmitDeadlines["received"]);
   const electionDay = new Date(2020, 10, 03);
 
-  const totalTime = typeof(ballotReceivedDeadline) == "object" ? ballotReceivedDeadline - beginTime : electionDay - beginTime
+  const totalTime = typeof(ballotReceivedDeadline) != "object" || ballotReceivedDeadline < electionDay ? electionDay - beginTime : ballotReceivedDeadline - beginTime
 
   let datesMap = new Map()
   datesMap.set('progressBar', {
@@ -105,21 +103,47 @@ function constructDatesMap(stateInfo) {
 
 function checkForCollisions(datesMap) {
   const likelyCollisions = ['ballotReq', 'ballotReceived', 'election', 'ballotPostmarked'];
+  var totalCollisions = [];
 
   while (likelyCollisions.length > 0) {
     var poppedField = likelyCollisions.pop();
 
-    for (const idx in likelyCollisions) {
-      const field = likelyCollisions[idx];
+    for (const field of likelyCollisions) {
       let datesMapPoppedField = datesMap.get(poppedField);
       let datesMapField = datesMap.get(field);
-      if (Math.abs(datesMapPoppedField['iconPosition'] - datesMapField['iconPosition']) < 5) {
-        datesMapPoppedField['iconPosition'] += 3;
-        datesMap.set(poppedField, datesMapPoppedField);
-
-        datesMapField['iconPosition'] -= 3;
-        datesMap.set(field, datesMapField);
+      if (datesMapPoppedField['iconPosition'] >= 0 &&
+          datesMapField['iconPosition'] >= 0 &&
+          Math.abs(datesMapPoppedField['iconPosition'] - datesMapField['iconPosition']) < 10) {
+        totalCollisions.push(poppedField, field);
       }
+    }
+  }
+
+  totalCollisions.sort(function (a, b) {
+    return datesMap.get(a)['iconPosition'] - datesMap.get(b)['iconPosition'];
+  });
+  const collidingIconIds = [...new Set(totalCollisions)];
+
+  const leftElem = datesMap.get(collidingIconIds[0]);
+  const rightElem = datesMap.get(collidingIconIds[collidingIconIds.length - 1]);
+  var space = rightElem['iconPosition']- leftElem['iconPosition'];
+  const requiredSpace = 4*collidingIconIds.length
+
+  if (requiredSpace > space) {
+    leftElem['iconPosition'] -= (requiredSpace - space) / 2;
+    rightElem['iconPosition'] += (requiredSpace - space) / 2;
+    datesMap.set(collidingIconIds[0], leftElem);
+    datesMap.set(collidingIconIds[collidingIconIds.length - 1], rightElem);
+  }
+
+  if (collidingIconIds.length > 2) {
+    space = rightElem['iconPosition']- leftElem['iconPosition'];
+    const increment = space / (collidingIconIds.length-1)
+    const middles = collidingIconIds.slice(1, collidingIconIds.length-1);
+    for (var i=0; i < middles.length; i++) {
+      const middleElem= datesMap.get(middles[i]);
+      middleElem['iconPosition'] = leftElem['iconPosition'] + increment*(i+1);
+      datesMap.set(middles[i], middleElem);
     }
   }
   return datesMap;
